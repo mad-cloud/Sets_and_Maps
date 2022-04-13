@@ -9,9 +9,6 @@ let ca=(st)=>{
             let count=m.get(key);
             m.set(key,count+1)
    }
-   for (let [key,value] of m) {
-    console.log(key,value);
-  }
-
+   console.log(m);
 }
 ca(strin);
